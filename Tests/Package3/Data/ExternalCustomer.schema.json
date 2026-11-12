@@ -1,0 +1,10 @@
+{
+  "$id": "https://example.test/customer.json",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "name": { "type": "string" },
+    "address": { "$ref": "https://example.test/address.json" }
+  },
+  "required": ["name", "address"]
+}

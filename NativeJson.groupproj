@@ -1,0 +1,448 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{f29b79fb-ce96-4cc0-8a41-4ea1639b59cf}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Tests\NativeJsonFinalTest.dproj"/>
+        <Projects Include="examples\QuickStart\NativeJson_QuickStart.dproj"/>
+        <Projects Include="Tests\NativeJson_Pointer.dproj"/>
+        <Projects Include="Tests\NativeJson_DeepEquals.dproj"/>
+        <Projects Include="Tests\NativeJson_SystemJson.dproj"/>
+        <Projects Include="Tests\NativeJson_Xml.dproj"/>
+        <Projects Include="Tests\NativeJson_Cbor.dproj"/>
+        <Projects Include="examples\Showcase\NativeJson_Showcase.dproj"/>
+        <Projects Include="Tests\NativeJson_Patch.dproj"/>
+        <Projects Include="Tests\NativeJson_Diff.dproj"/>
+        <Projects Include="Tests\NativeJson_ObjectPatch.dproj"/>
+        <Projects Include="Tests\TestFeatures.dproj"/>
+        <Projects Include="examples\Fluent\NativeJson_Fluent.dproj"/>
+        <Projects Include="examples\Polymorphism\NativeJson_Polymorphism.dproj"/>
+        <Projects Include="examples\Schema\NativeJson_Schema.dproj"/>
+        <Projects Include="Tests\AttribInheritInterfacesStreamsTest\NativeJson_Tests.dproj"/>
+        <Projects Include="Benchmarks\BigDataTest\NativeJson_Benchmark.dproj"/>
+        <Projects Include="Benchmarks\Speed\NativeJson_Speed.dproj"/>
+        <Projects Include="Benchmarks\JsonDeathmatch.dproj"/>
+        <Projects Include="examples\Demos\Demo01_Basics.dproj"/>
+        <Projects Include="examples\Demos\Demo02_Collections.dproj"/>
+        <Projects Include="examples\Demos\Demo03_DataTypes.dproj"/>
+        <Projects Include="examples\Demos\Demo04_Polymorphism.dproj"/>
+        <Projects Include="examples\Demos\Demo05_Configuration.dproj"/>
+        <Projects Include="examples\Demos\Demo06_Practice.dproj"/>
+        <Projects Include="examples\Demos\Demo07_Dom.dproj"/>
+        <Projects Include="examples\Demos\Demo08_Schema.dproj"/>
+        <Projects Include="examples\Demos\Demo09_BinaryData.dproj"/>
+        <Projects Include="examples\Demos\Demo10_Api.dproj"/>
+        <Projects Include="examples\Demos\Demo11_MoneyAmounts.dproj"/>
+        <Projects Include="examples\Demos\Demo12_ValidationRules.dproj"/>
+        <Projects Include="examples\Demos\Demo13_EdgeCases.dproj"/>
+        <Projects Include="examples\Demos\Demo14_CodeGen.dproj"/>
+        <Projects Include="examples\Demos\Demo15_WhatsNew.dproj"/>
+        <Projects Include="Tests\Package2\Test2_NumberFormats.dproj"/>
+        <Projects Include="Tests\Package2\Test2_NullAndEmpty.dproj"/>
+        <Projects Include="Tests\Package2\Test2_Characters.dproj"/>
+        <Projects Include="Tests\Package2\Test2_Accessors.dproj"/>
+        <Projects Include="Tests\Package2\Test2_SchemaValidator.dproj"/>
+        <Projects Include="Tests\Package3\Package3_CodeGen.dproj"/>
+        <Projects Include="Tests\MemoryTest\NativeJson_MemoryTest.dproj"/>
+        <Projects Include="Tests\Package2\Test2_Json5.dproj"/>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="NativeJsonFinalTest">
+        <MSBuild Projects="Tests\NativeJsonFinalTest.dproj"/>
+    </Target>
+    <Target Name="NativeJsonFinalTest:Clean">
+        <MSBuild Projects="Tests\NativeJsonFinalTest.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="NativeJsonFinalTest:Make">
+        <MSBuild Projects="Tests\NativeJsonFinalTest.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="NativeJson_QuickStart">
+        <MSBuild Projects="examples\QuickStart\NativeJson_QuickStart.dproj"/>
+    </Target>
+    <Target Name="NativeJson_QuickStart:Clean">
+        <MSBuild Projects="examples\QuickStart\NativeJson_QuickStart.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="NativeJson_QuickStart:Make">
+        <MSBuild Projects="examples\QuickStart\NativeJson_QuickStart.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="NativeJson_Pointer">
+        <MSBuild Projects="Tests\NativeJson_Pointer.dproj"/>
+    </Target>
+    <Target Name="NativeJson_Pointer:Clean">
+        <MSBuild Projects="Tests\NativeJson_Pointer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="NativeJson_Pointer:Make">
+        <MSBuild Projects="Tests\NativeJson_Pointer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="NativeJson_DeepEquals">
+        <MSBuild Projects="Tests\NativeJson_DeepEquals.dproj"/>
+    </Target>
+    <Target Name="NativeJson_DeepEquals:Clean">
+        <MSBuild Projects="Tests\NativeJson_DeepEquals.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="NativeJson_DeepEquals:Make">
+        <MSBuild Projects="Tests\NativeJson_DeepEquals.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="NativeJson_SystemJson">
+        <MSBuild Projects="Tests\NativeJson_SystemJson.dproj"/>
+    </Target>
+    <Target Name="NativeJson_SystemJson:Clean">
+        <MSBuild Projects="Tests\NativeJson_SystemJson.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="NativeJson_SystemJson:Make">
+        <MSBuild Projects="Tests\NativeJson_SystemJson.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="NativeJson_Xml">
+        <MSBuild Projects="Tests\NativeJson_Xml.dproj"/>
+    </Target>
+    <Target Name="NativeJson_Xml:Clean">
+        <MSBuild Projects="Tests\NativeJson_Xml.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="NativeJson_Xml:Make">
+        <MSBuild Projects="Tests\NativeJson_Xml.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="NativeJson_Cbor">
+        <MSBuild Projects="Tests\NativeJson_Cbor.dproj"/>
+    </Target>
+    <Target Name="NativeJson_Cbor:Clean">
+        <MSBuild Projects="Tests\NativeJson_Cbor.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="NativeJson_Cbor:Make">
+        <MSBuild Projects="Tests\NativeJson_Cbor.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="NativeJson_Showcase">
+        <MSBuild Projects="examples\Showcase\NativeJson_Showcase.dproj"/>
+    </Target>
+    <Target Name="NativeJson_Showcase:Clean">
+        <MSBuild Projects="examples\Showcase\NativeJson_Showcase.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="NativeJson_Showcase:Make">
+        <MSBuild Projects="examples\Showcase\NativeJson_Showcase.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="NativeJson_Patch">
+        <MSBuild Projects="Tests\NativeJson_Patch.dproj"/>
+    </Target>
+    <Target Name="NativeJson_Patch:Clean">
+        <MSBuild Projects="Tests\NativeJson_Patch.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="NativeJson_Patch:Make">
+        <MSBuild Projects="Tests\NativeJson_Patch.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="NativeJson_Diff">
+        <MSBuild Projects="Tests\NativeJson_Diff.dproj"/>
+    </Target>
+    <Target Name="NativeJson_Diff:Clean">
+        <MSBuild Projects="Tests\NativeJson_Diff.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="NativeJson_Diff:Make">
+        <MSBuild Projects="Tests\NativeJson_Diff.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="NativeJson_ObjectPatch">
+        <MSBuild Projects="Tests\NativeJson_ObjectPatch.dproj"/>
+    </Target>
+    <Target Name="NativeJson_ObjectPatch:Clean">
+        <MSBuild Projects="Tests\NativeJson_ObjectPatch.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="NativeJson_ObjectPatch:Make">
+        <MSBuild Projects="Tests\NativeJson_ObjectPatch.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TestFeatures">
+        <MSBuild Projects="Tests\TestFeatures.dproj"/>
+    </Target>
+    <Target Name="TestFeatures:Clean">
+        <MSBuild Projects="Tests\TestFeatures.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TestFeatures:Make">
+        <MSBuild Projects="Tests\TestFeatures.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="NativeJson_Fluent">
+        <MSBuild Projects="examples\Fluent\NativeJson_Fluent.dproj"/>
+    </Target>
+    <Target Name="NativeJson_Fluent:Clean">
+        <MSBuild Projects="examples\Fluent\NativeJson_Fluent.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="NativeJson_Fluent:Make">
+        <MSBuild Projects="examples\Fluent\NativeJson_Fluent.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="NativeJson_Polymorphism">
+        <MSBuild Projects="examples\Polymorphism\NativeJson_Polymorphism.dproj"/>
+    </Target>
+    <Target Name="NativeJson_Polymorphism:Clean">
+        <MSBuild Projects="examples\Polymorphism\NativeJson_Polymorphism.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="NativeJson_Polymorphism:Make">
+        <MSBuild Projects="examples\Polymorphism\NativeJson_Polymorphism.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="NativeJson_Schema">
+        <MSBuild Projects="examples\Schema\NativeJson_Schema.dproj"/>
+    </Target>
+    <Target Name="NativeJson_Schema:Clean">
+        <MSBuild Projects="examples\Schema\NativeJson_Schema.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="NativeJson_Schema:Make">
+        <MSBuild Projects="examples\Schema\NativeJson_Schema.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="NativeJson_Tests">
+        <MSBuild Projects="Tests\AttribInheritInterfacesStreamsTest\NativeJson_Tests.dproj"/>
+    </Target>
+    <Target Name="NativeJson_Tests:Clean">
+        <MSBuild Projects="Tests\AttribInheritInterfacesStreamsTest\NativeJson_Tests.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="NativeJson_Tests:Make">
+        <MSBuild Projects="Tests\AttribInheritInterfacesStreamsTest\NativeJson_Tests.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="NativeJson_Benchmark">
+        <MSBuild Projects="Benchmarks\BigDataTest\NativeJson_Benchmark.dproj"/>
+    </Target>
+    <Target Name="NativeJson_Benchmark:Clean">
+        <MSBuild Projects="Benchmarks\BigDataTest\NativeJson_Benchmark.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="NativeJson_Benchmark:Make">
+        <MSBuild Projects="Benchmarks\BigDataTest\NativeJson_Benchmark.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="NativeJson_Speed">
+        <MSBuild Projects="Benchmarks\Speed\NativeJson_Speed.dproj"/>
+    </Target>
+    <Target Name="NativeJson_Speed:Clean">
+        <MSBuild Projects="Benchmarks\Speed\NativeJson_Speed.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="NativeJson_Speed:Make">
+        <MSBuild Projects="Benchmarks\Speed\NativeJson_Speed.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="JsonDeathmatch">
+        <MSBuild Projects="Benchmarks\JsonDeathmatch.dproj"/>
+    </Target>
+    <Target Name="JsonDeathmatch:Clean">
+        <MSBuild Projects="Benchmarks\JsonDeathmatch.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="JsonDeathmatch:Make">
+        <MSBuild Projects="Benchmarks\JsonDeathmatch.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Demo01_Basics">
+        <MSBuild Projects="examples\Demos\Demo01_Basics.dproj"/>
+    </Target>
+    <Target Name="Demo01_Basics:Clean">
+        <MSBuild Projects="examples\Demos\Demo01_Basics.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Demo01_Basics:Make">
+        <MSBuild Projects="examples\Demos\Demo01_Basics.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Demo02_Collections">
+        <MSBuild Projects="examples\Demos\Demo02_Collections.dproj"/>
+    </Target>
+    <Target Name="Demo02_Collections:Clean">
+        <MSBuild Projects="examples\Demos\Demo02_Collections.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Demo02_Collections:Make">
+        <MSBuild Projects="examples\Demos\Demo02_Collections.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Demo03_DataTypes">
+        <MSBuild Projects="examples\Demos\Demo03_DataTypes.dproj"/>
+    </Target>
+    <Target Name="Demo03_DataTypes:Clean">
+        <MSBuild Projects="examples\Demos\Demo03_DataTypes.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Demo03_DataTypes:Make">
+        <MSBuild Projects="examples\Demos\Demo03_DataTypes.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Demo04_Polymorphism">
+        <MSBuild Projects="examples\Demos\Demo04_Polymorphism.dproj"/>
+    </Target>
+    <Target Name="Demo04_Polymorphism:Clean">
+        <MSBuild Projects="examples\Demos\Demo04_Polymorphism.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Demo04_Polymorphism:Make">
+        <MSBuild Projects="examples\Demos\Demo04_Polymorphism.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Demo05_Configuration">
+        <MSBuild Projects="examples\Demos\Demo05_Configuration.dproj"/>
+    </Target>
+    <Target Name="Demo05_Configuration:Clean">
+        <MSBuild Projects="examples\Demos\Demo05_Configuration.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Demo05_Configuration:Make">
+        <MSBuild Projects="examples\Demos\Demo05_Configuration.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Demo06_Practice">
+        <MSBuild Projects="examples\Demos\Demo06_Practice.dproj"/>
+    </Target>
+    <Target Name="Demo06_Practice:Clean">
+        <MSBuild Projects="examples\Demos\Demo06_Practice.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Demo06_Practice:Make">
+        <MSBuild Projects="examples\Demos\Demo06_Practice.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Demo07_Dom">
+        <MSBuild Projects="examples\Demos\Demo07_Dom.dproj"/>
+    </Target>
+    <Target Name="Demo07_Dom:Clean">
+        <MSBuild Projects="examples\Demos\Demo07_Dom.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Demo07_Dom:Make">
+        <MSBuild Projects="examples\Demos\Demo07_Dom.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Demo08_Schema">
+        <MSBuild Projects="examples\Demos\Demo08_Schema.dproj"/>
+    </Target>
+    <Target Name="Demo08_Schema:Clean">
+        <MSBuild Projects="examples\Demos\Demo08_Schema.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Demo08_Schema:Make">
+        <MSBuild Projects="examples\Demos\Demo08_Schema.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Demo09_BinaryData">
+        <MSBuild Projects="examples\Demos\Demo09_BinaryData.dproj"/>
+    </Target>
+    <Target Name="Demo09_BinaryData:Clean">
+        <MSBuild Projects="examples\Demos\Demo09_BinaryData.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Demo09_BinaryData:Make">
+        <MSBuild Projects="examples\Demos\Demo09_BinaryData.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Demo10_Api">
+        <MSBuild Projects="examples\Demos\Demo10_Api.dproj"/>
+    </Target>
+    <Target Name="Demo10_Api:Clean">
+        <MSBuild Projects="examples\Demos\Demo10_Api.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Demo10_Api:Make">
+        <MSBuild Projects="examples\Demos\Demo10_Api.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Demo11_MoneyAmounts">
+        <MSBuild Projects="examples\Demos\Demo11_MoneyAmounts.dproj"/>
+    </Target>
+    <Target Name="Demo11_MoneyAmounts:Clean">
+        <MSBuild Projects="examples\Demos\Demo11_MoneyAmounts.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Demo11_MoneyAmounts:Make">
+        <MSBuild Projects="examples\Demos\Demo11_MoneyAmounts.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Demo12_ValidationRules">
+        <MSBuild Projects="examples\Demos\Demo12_ValidationRules.dproj"/>
+    </Target>
+    <Target Name="Demo12_ValidationRules:Clean">
+        <MSBuild Projects="examples\Demos\Demo12_ValidationRules.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Demo12_ValidationRules:Make">
+        <MSBuild Projects="examples\Demos\Demo12_ValidationRules.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Demo13_EdgeCases">
+        <MSBuild Projects="examples\Demos\Demo13_EdgeCases.dproj"/>
+    </Target>
+    <Target Name="Demo13_EdgeCases:Clean">
+        <MSBuild Projects="examples\Demos\Demo13_EdgeCases.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Demo13_EdgeCases:Make">
+        <MSBuild Projects="examples\Demos\Demo13_EdgeCases.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Demo14_CodeGen">
+        <MSBuild Projects="examples\Demos\Demo14_CodeGen.dproj"/>
+    </Target>
+    <Target Name="Demo14_CodeGen:Clean">
+        <MSBuild Projects="examples\Demos\Demo14_CodeGen.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Demo14_CodeGen:Make">
+        <MSBuild Projects="examples\Demos\Demo14_CodeGen.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Demo15_WhatsNew">
+        <MSBuild Projects="examples\Demos\Demo15_WhatsNew.dproj"/>
+    </Target>
+    <Target Name="Demo15_WhatsNew:Clean">
+        <MSBuild Projects="examples\Demos\Demo15_WhatsNew.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Demo15_WhatsNew:Make">
+        <MSBuild Projects="examples\Demos\Demo15_WhatsNew.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Test2_NumberFormats">
+        <MSBuild Projects="Tests\Package2\Test2_NumberFormats.dproj"/>
+    </Target>
+    <Target Name="Test2_NumberFormats:Clean">
+        <MSBuild Projects="Tests\Package2\Test2_NumberFormats.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Test2_NumberFormats:Make">
+        <MSBuild Projects="Tests\Package2\Test2_NumberFormats.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Test2_NullAndEmpty">
+        <MSBuild Projects="Tests\Package2\Test2_NullAndEmpty.dproj"/>
+    </Target>
+    <Target Name="Test2_NullAndEmpty:Clean">
+        <MSBuild Projects="Tests\Package2\Test2_NullAndEmpty.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Test2_NullAndEmpty:Make">
+        <MSBuild Projects="Tests\Package2\Test2_NullAndEmpty.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Test2_Characters">
+        <MSBuild Projects="Tests\Package2\Test2_Characters.dproj"/>
+    </Target>
+    <Target Name="Test2_Characters:Clean">
+        <MSBuild Projects="Tests\Package2\Test2_Characters.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Test2_Characters:Make">
+        <MSBuild Projects="Tests\Package2\Test2_Characters.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Test2_Accessors">
+        <MSBuild Projects="Tests\Package2\Test2_Accessors.dproj"/>
+    </Target>
+    <Target Name="Test2_Accessors:Clean">
+        <MSBuild Projects="Tests\Package2\Test2_Accessors.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Test2_Accessors:Make">
+        <MSBuild Projects="Tests\Package2\Test2_Accessors.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Test2_SchemaValidator">
+        <MSBuild Projects="Tests\Package2\Test2_SchemaValidator.dproj"/>
+    </Target>
+    <Target Name="Test2_SchemaValidator:Clean">
+        <MSBuild Projects="Tests\Package2\Test2_SchemaValidator.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Test2_SchemaValidator:Make">
+        <MSBuild Projects="Tests\Package2\Test2_SchemaValidator.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Package3_CodeGen">
+        <MSBuild Projects="Tests\Package3\Package3_CodeGen.dproj"/>
+    </Target>
+    <Target Name="Package3_CodeGen:Clean">
+        <MSBuild Projects="Tests\Package3\Package3_CodeGen.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Package3_CodeGen:Make">
+        <MSBuild Projects="Tests\Package3\Package3_CodeGen.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="NativeJson_MemoryTest">
+        <MSBuild Projects="Tests\MemoryTest\NativeJson_MemoryTest.dproj"/>
+    </Target>
+    <Target Name="NativeJson_MemoryTest:Clean">
+        <MSBuild Projects="Tests\MemoryTest\NativeJson_MemoryTest.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="NativeJson_MemoryTest:Make">
+        <MSBuild Projects="Tests\MemoryTest\NativeJson_MemoryTest.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Test2_Json5">
+        <MSBuild Projects="Tests\Package2\Test2_Json5.dproj"/>
+    </Target>
+    <Target Name="Test2_Json5:Clean">
+        <MSBuild Projects="Tests\Package2\Test2_Json5.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Test2_Json5:Make">
+        <MSBuild Projects="Tests\Package2\Test2_Json5.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="NativeJsonFinalTest;NativeJson_QuickStart;NativeJson_Pointer;NativeJson_DeepEquals;NativeJson_Patch;NativeJson_Diff;NativeJson_ObjectPatch;TestFeatures;NativeJson_Fluent;NativeJson_Polymorphism;NativeJson_Schema;NativeJson_Tests;NativeJson_Benchmark;NativeJson_Speed;JsonDeathmatch;Demo01_Basics;Demo02_Collections;Demo03_DataTypes;Demo04_Polymorphism;Demo05_Configuration;Demo06_Practice;Demo07_Dom;Demo08_Schema;Demo09_BinaryData;Demo10_Api;Demo11_MoneyAmounts;Demo12_ValidationRules;Demo13_EdgeCases;Demo14_CodeGen;Demo15_WhatsNew;Test2_NumberFormats;Test2_NullAndEmpty;Test2_Characters;Test2_Accessors;Test2_SchemaValidator;Package3_CodeGen;NativeJson_MemoryTest;Test2_Json5;NativeJson_SystemJson;NativeJson_Xml;NativeJson_Cbor;NativeJson_Showcase"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="NativeJsonFinalTest:Clean;NativeJson_QuickStart:Clean;NativeJson_Pointer:Clean;NativeJson_DeepEquals:Clean;NativeJson_Patch:Clean;NativeJson_Diff:Clean;NativeJson_ObjectPatch:Clean;TestFeatures:Clean;NativeJson_Fluent:Clean;NativeJson_Polymorphism:Clean;NativeJson_Schema:Clean;NativeJson_Tests:Clean;NativeJson_Benchmark:Clean;NativeJson_Speed:Clean;JsonDeathmatch:Clean;Demo01_Basics:Clean;Demo02_Collections:Clean;Demo03_DataTypes:Clean;Demo04_Polymorphism:Clean;Demo05_Configuration:Clean;Demo06_Practice:Clean;Demo07_Dom:Clean;Demo08_Schema:Clean;Demo09_BinaryData:Clean;Demo10_Api:Clean;Demo11_MoneyAmounts:Clean;Demo12_ValidationRules:Clean;Demo13_EdgeCases:Clean;Demo14_CodeGen:Clean;Demo15_WhatsNew:Clean;Test2_NumberFormats:Clean;Test2_NullAndEmpty:Clean;Test2_Characters:Clean;Test2_Accessors:Clean;Test2_SchemaValidator:Clean;Package3_CodeGen:Clean;NativeJson_MemoryTest:Clean;Test2_Json5:Clean;NativeJson_SystemJson:Clean;NativeJson_Xml:Clean;NativeJson_Cbor:Clean;NativeJson_Showcase:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="NativeJsonFinalTest:Make;NativeJson_QuickStart:Make;NativeJson_Pointer:Make;NativeJson_DeepEquals:Make;NativeJson_Patch:Make;NativeJson_Diff:Make;NativeJson_ObjectPatch:Make;TestFeatures:Make;NativeJson_Fluent:Make;NativeJson_Polymorphism:Make;NativeJson_Schema:Make;NativeJson_Tests:Make;NativeJson_Benchmark:Make;NativeJson_Speed:Make;JsonDeathmatch:Make;Demo01_Basics:Make;Demo02_Collections:Make;Demo03_DataTypes:Make;Demo04_Polymorphism:Make;Demo05_Configuration:Make;Demo06_Practice:Make;Demo07_Dom:Make;Demo08_Schema:Make;Demo09_BinaryData:Make;Demo10_Api:Make;Demo11_MoneyAmounts:Make;Demo12_ValidationRules:Make;Demo13_EdgeCases:Make;Demo14_CodeGen:Make;Demo15_WhatsNew:Make;Test2_NumberFormats:Make;Test2_NullAndEmpty:Make;Test2_Characters:Make;Test2_Accessors:Make;Test2_SchemaValidator:Make;Package3_CodeGen:Make;NativeJson_MemoryTest:Make;Test2_Json5:Make;NativeJson_SystemJson:Make;NativeJson_Xml:Make;NativeJson_Cbor:Make;NativeJson_Showcase:Make"/>
+    </Target>
+    <Target Name="Demos">
+        <CallTarget Targets="Demo01_Basics;Demo02_Collections;Demo03_DataTypes;Demo04_Polymorphism;Demo05_Configuration;Demo06_Practice;Demo07_Dom;Demo08_Schema;Demo09_BinaryData;Demo10_Api;Demo11_MoneyAmounts;Demo12_ValidationRules;Demo13_EdgeCases"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

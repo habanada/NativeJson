@@ -1,0 +1,10 @@
+{
+  "$id": "https://example.test/address.json",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "street": { "type": "string" },
+    "postcode": { "type": "string" }
+  },
+  "required": ["street", "postcode"]
+}
